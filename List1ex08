@@ -1,0 +1,8 @@
+int tc;
+     int tempf;
+
+    Console.WriteLine("Digite sua temperatura celsius");
+    tc = int.Parse(Console.ReadLine());
+    tempf = (tc*9/5)+32;
+    Console.WriteLine("Resultado fahrenheit");
+    Console.WriteLine(tempf);
